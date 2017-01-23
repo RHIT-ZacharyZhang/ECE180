@@ -1,0 +1,26 @@
+"Jetsons" TV Show Theme
+
+60 seconds duration
+
+14 active channels
+
+Channel	Voice
+-------	-----
+1	Trombone
+2	Piano
+3	Strings
+4	Synth Brass
+5	Polysynth
+6	Trumpet
+7	Acoustic Bass
+8	Harp
+9	FX Atmosphere
+10	Drums
+11	Flute
+12	Celeste
+13	---
+14	Choir Ahhs
+15	---
+16	Tenor Sax
+
+

@@ -1,0 +1,26 @@
+function [h,s,v,f,e] = showHSVplanes(img)
+a = imshow(img);
+c = imread(img);
+whos c;
+imfinfo(img);
+b = rgb2hsv(c);
+subplot(2,2,1);
+imshow(b);
+whos b;
+subplot(2,2,2);
+h = b(:,:,1);
+imshow(h);
+whos h;
+subplot(2,2,3);
+s = b(:,:,2);
+imshow(s);
+whos s;
+subplot(2,2,4);
+v = b(:,:,3);
+imshow(v);
+whos v;
+f = max(h(:));
+x = im2uint8(h);
+y = im2uint8(s);
+z = im2uint8(v);
+e = max(x(:));
